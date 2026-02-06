@@ -18,4 +18,5 @@ RUN chmod +x gradlew
 RUN ./gradlew build -x test
 
 # Step 6: Run the Spring Boot app
-CMD ["java", "-jar", "build/libs/demo-app-0.0.1-SNAPSHOT.jar"]
+CMD ["sh", "-c", "java -jar build/libs/*.jar"]
+
