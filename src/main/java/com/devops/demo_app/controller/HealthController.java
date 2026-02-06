@@ -8,7 +8,8 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "Auto Deploy Verified via Jenkins - v3";
+        return "Version 2 - Deployed via Jenkins";
+
 
 
     }
