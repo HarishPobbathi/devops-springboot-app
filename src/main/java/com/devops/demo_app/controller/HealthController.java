@@ -8,6 +8,7 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "DevOps Application is Running";
+        return "CI/CD Pipeline Working 🚀";
+
     }
 }
