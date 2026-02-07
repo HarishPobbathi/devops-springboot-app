@@ -8,7 +8,8 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "Version 6 - Auto Deploy OK";
+        return "Version 7 - Auto Deploy SUCCESS";
+
 
 
 
